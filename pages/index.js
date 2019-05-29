@@ -1,5 +1,6 @@
 import fetch from 'isomorphic-fetch';
 import Error from 'next/error';
+import StoryList from '../components/StoryList';
 
 class Index extends React.Component {
     static async getInitialProps() {
@@ -21,16 +22,13 @@ class Index extends React.Component {
         if (stories == 0) {
             return <Error statusCode={503} />
         }
-        
-        const storyList = stories.map(story => (
-            <h2 key={story.id}>{story.title}</h2>
-        ));
 
         return (
             <div>
                 <h1>Next Js</h1>
-                {storyList}
-            </div>)
+                <StoryList stories={stories} />
+            </div>
+        )
 
     }
 }
