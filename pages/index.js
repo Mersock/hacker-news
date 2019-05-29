@@ -11,7 +11,7 @@ class Index extends React.Component {
         let page;
         try {
             page = Number(query.page) || 1;
-            const response = await fetch(`http://node-hnapi.herokuapp.com/news?page=${page}`);
+            const response = await fetch(`https://node-hnapi.herokuapp.com/news?page=${page}`);
             stories = await response.json();
         } catch (error) {
             console.log(error)
