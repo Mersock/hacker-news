@@ -1,0 +1,25 @@
+{
+  "name": "hacker-news",
+  "version": "1.0.0",
+  "description": "A Hacker News clone made with Next.js",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mersock/hacker-news.git"
+  },
+  "author": "MersockHD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mersock/hacker-news/issues"
+  },
+  "homepage": "https://github.com/Mersock/hacker-news#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
