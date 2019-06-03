@@ -31,7 +31,6 @@ class Index extends React.Component {
     //             .catch(err => {
     //                 console.warn('service worker registration failed', err.message);
     //             })
-
     //     }
     // }
 
