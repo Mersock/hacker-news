@@ -5,7 +5,7 @@ class myDocument extends Document {
         return (
             <html lang="en-Us">
                 <Head>
-                    <link rel="manifest" href="/static/manifest.json" />
+                    <link rel="manifest" href="/static/minifest.json" />
 
                     <meta name="mobile-web-app-capable" content="yes" />
                     <meta name="apple-mobile-web-app-capable" content="yes" />
