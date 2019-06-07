@@ -7,3 +7,7 @@ Usage
 1.git clone https://github.com/Mersock/hacker-news-next-js
 
 2.npm run dev
+
+`Demo`
+
+https://hacker-news-next-js-simple.herokuapp.com/
